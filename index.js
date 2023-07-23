@@ -135,3 +135,27 @@
 // add(15, 27, 10);
 // add(10, 20, 30);
 // add(5, 10, 15);
+
+// //Task-9/27
+// function add(a, b, c) {
+//     return a + b + c
+// }
+// add(2, 5, 8);
+// let result = add(15, 27, 10);
+// console.log("result:", result) // variant-1
+// result = add(10, 20, 30);
+// console.log("result:", result)
+// result = add(5, 10, 15);
+// console.log("result:", result)
+
+// console.log(add(15, 27, 10)); // variant-2
+// console.log(add(10, 20, 30));
+// console.log(add(5, 10, 15));
+
+// // Task-10/27
+// function makeMessage (name, price) {
+ 
+//    const message = `You picked ${name}, price per item is ${price} credits`;
+ 
+//   return message;
+// };
