@@ -94,3 +94,44 @@
 
 // const isAdmin = false;
 // console.log("isAdmin:", isAdmin);
+
+// //Task-4/27
+// const pricePerItem = 3500;
+// const orderedQuantity = 4;
+// const totalPrice  = pricePerItem * orderedQuantity;
+// console.log("totalPrice:", totalPrice)
+
+// // Change code below this line
+// // const totalPrice = pricePerItem;
+
+// // Task-5?27
+// const productName = "Droid";
+// const pricePerItem = 3500;
+// const message = `You picked ${productName}, price per item is ${pricePerItem} credits`;
+// console.log("message:", message)
+
+// // Task-6/27
+// const pricePerDroid = 800;
+// const orderedQuantity = 6;
+// const deliveryFee = 50;
+// const totalPrice = pricePerDroid * orderedQuantity + deliveryFee;
+// console.log("totalPrice:", totalPrice)
+
+// const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
+// console.log("message:", message)
+
+// // Task-7/27
+// function sayHi() {
+//     console.log("Hello, this is my first function!");
+// }
+// sayHi();
+
+// // Task-8/27
+// function add(a , b , c)
+
+//  {
+//     console.log(`Addition result equals ${a + b + c}`);
+// }
+// add(15, 27, 10);
+// add(10, 20, 30);
+// add(5, 10, 15);
