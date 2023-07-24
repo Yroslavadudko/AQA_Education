@@ -11,7 +11,6 @@
 // console.log('age', age)
 // console.log("quantity", quantity);
 
-
 // const valueB = "random string";
 // console.log(Number (valueB)); //'NaN'
 // console.log(typeof Number (valueB));
@@ -47,7 +46,6 @@
 
 // 2+2
 // console.log("🚀 ~ 2:", 2) //?
-
 
 // const apples = '47';
 // const greapes = 135;
@@ -154,8 +152,109 @@
 
 // // Task-10/27
 // function makeMessage (name, price) {
- 
+
 //    const message = `You picked ${name}, price per item is ${price} credits`;
- 
+
 //   return message;
 // };
+
+// //Task-11/27
+// function calculateTotalPrice (orderedQuantity, pricePerItem) {
+
+//   const totalPrice = orderedQuantity * pricePerItem;
+
+//   return totalPrice;
+
+// };
+// console.log(calculateTotalPrice(5, 100));
+// console.log(calculateTotalPrice(8, 60));
+// console.log(calculateTotalPrice(3, 400));
+// console.log(calculateTotalPrice(1, 3500));
+// console.log(calculateTotalPrice(12, 70));
+
+// //Task-12/27
+// function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
+
+//   let totalPrice = orderedQuantity * pricePerDroid + deliveryFee;
+
+//   message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
+//   return message;
+// }
+
+// console.log(makeOrderMessage(2, 100, 50));
+// console.log(makeOrderMessage(4, 300, 100));
+// console.log(makeOrderMessage(10, 70, 200));
+
+// //Task-13/27
+// function isAdult(age) {
+//     const passed = age >= 18;
+//     return passed;
+// }
+
+// // Приклади виклику функції:
+// console.log(isAdult(20));  // Виведе true
+// console.log(isAdult(14));  // Виведе false
+// console.log(isAdult(8));   // Виведе false
+// console.log(isAdult(37));  // Виведе true
+
+// // Task-14/27
+// function isValidPassword(password) {
+//   const SAVED_PASSWORD = 'jqueryismyjam';
+ 
+//   const isMatch = password === SAVED_PASSWORD;
+
+
+//   return isMatch;
+// }
+
+// console.log(isValidPassword("mangodab3st"));
+// console.log(isValidPassword("kiwirul3z"));
+// console.log(isValidPassword("jqueryismyjam"));
+
+// // Task-15/27
+// function checkAge(age) {
+//   let message;
+
+//   if (age >= 18) {
+//     message = "You are an adult";
+//   } else {
+//     message = "You are a minor";
+//   }
+
+//   return message;
+// }
+// console.log(checkAge(20));
+// console.log(checkAge(8));
+// console.log(checkAge(14));
+// console.log(checkAge(38));
+
+// // Task-16/27
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = 'jqueryismyjam';
+//   let message;
+
+//   if (password === null) { 
+//     message =  'Canceled by user!';
+//   } else if (password === ADMIN_PASSWORD) {
+//     message = "Welcome!";
+//   } else {
+//     message = "Access denied, wrong password!";
+//   }
+
+//   return message;
+// }
+// console.log(checkPassword("mangohackzor"));
+// console.log(checkPassword(null));
+// console.log(checkPassword("polyhax"));
+// console.log(checkPassword("jqueryismyjam"));
+
+// const value = 27.5;
+// console.log(Math.floor(value)); //27.5>27 ціле число в меньший біе
+// console.log(Math.ceil(value)); //27.5>28 ціле число в більший бік
+// console.log(Math.round(value)); //27.5>28 ціле число як в математиці
+
+// const companyName = "Cyberdyne System";
+// const repairBots = 150;
+// const defenceBots = 50;
+// const message = `${companyName} has ${repairBots + defenceBots} bots in stock.`;
+// console.log(message);
