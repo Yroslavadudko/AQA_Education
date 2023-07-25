@@ -258,3 +258,121 @@
 // const defenceBots = 50;
 // const message = `${companyName} has ${repairBots + defenceBots} bots in stock.`;
 // console.log(message);
+ 
+// Task-17/27
+// function checkStorage(available, ordered) {
+//   let message;
+//   if (ordered === 0) {
+//     message = "There are no products in the order!";
+//   } else if (ordered > available) {
+//     message = "Your order is too large, there are not enough items in stock!";
+//   } else {
+//     message = "The order is accepted, our manager will contact you";
+//   }
+  
+//   return message;
+// }
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(70, 0));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 250));
+// console.log(checkStorage(150, 0));
+
+// //Task-18/27
+// function isNumberInRange(start, end, number) {
+//   const isInRange = number >= start && number <= end; 
+
+//   return isInRange;
+// }
+// console.log(isNumberInRange(10, 30, 17));
+// console.log(isNumberInRange(10, 30, 5));
+// console.log(isNumberInRange(20, 50, 24));
+// console.log(isNumberInRange(20, 50, 76));
+
+// // Task-19/27
+// function checkIfCanAccessContent(subType) {
+//   const canAccessContent = subType === "pro" || subType === "vip"; // Change this line
+
+//   return canAccessContent;
+// }
+// console.log(checkIfCanAccessContent("pro"));
+// console.log(checkIfCanAccessContent("starter"));
+// console.log(checkIfCanAccessContent("vip"));
+// console.log(checkIfCanAccessContent("free"));
+
+// // Task-20/27
+// function isNumberNotInRange(start, end, number) {
+//   const isInRange = number >= start && number <= end;
+//   const isNotInRange = !isInRange; // Change this line
+
+//   return isNotInRange;
+// }
+// console.log(isNumberNotInRange(10, 30, 17));
+// console.log(isNumberNotInRange(10, 30, 5));
+// console.log(isNumberNotInRange(20, 50, 24));
+// console.log(isNumberNotInRange(20, 50, 76));
+
+// // Task-21/27
+// function getDiscount(totalSpent) {
+//   const BASE_DISCOUNT = 0;
+//   const BRONZE_DISCOUNT = 0.02;
+//   const SILVER_DISCOUNT = 0.05;
+//   const GOLD_DISCOUNT = 0.1;
+//   let discount;
+//   if (totalSpent >= 50000) {
+//     discount = GOLD_DISCOUNT;
+//   } else if (totalSpent >= 20000) {
+//     discount = SILVER_DISCOUNT;
+//   } else if (totalSpent >= 5000) {
+//     discount = BRONZE_DISCOUNT;
+//   } else {
+//     discount = BASE_DISCOUNT;
+//   } 
+//   return discount;
+// }
+// console.log(getDiscount(137000));
+// console.log(getDiscount(46900));
+// console.log(getDiscount(8250));
+// console.log(getDiscount(1300));
+// console.log(getDiscount(5000));
+// console.log(getDiscount(20000));
+// console.log(getDiscount(50000))
+
+// // Task-22/27
+// function checkStorage(available, ordered) {
+//   let message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
+
+//   return message;
+// }
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 150));
+// console.log(checkStorage(150, 180));
+
+// // Task-23/27
+// function getSubscriptionPrice(type) {
+//   let price;
+
+//  switch (type) { 
+//    case "starter": 
+//       price = 0; 
+//       break;
+
+//     case "professional": 
+//       price = 20; 
+//       break;
+
+//     case "organization": 
+//       price = 50; 
+//       break;
+
+//   }
+//   return price;
+// }
+// getSubscriptionPrice("starter"); 
+// getSubscriptionPrice("professional"); 
+// getSubscriptionPrice("organization"); 
+// getSubscriptionPrice("_stаrter_"); 
+
